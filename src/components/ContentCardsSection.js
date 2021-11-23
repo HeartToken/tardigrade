@@ -63,7 +63,7 @@ function ContentCardsSection(props) {
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.body}</Card.Text>
                 </Card.Body>
-                <ModalLauncher src={item.image} />
+                <ModalLauncher src={item.image} title={item.title} />
               </Card>
             </Col>
           ))}

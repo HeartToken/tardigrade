@@ -17,7 +17,7 @@ function ModalLauncher(props) {
         
       >
         <Modal.Header closeButton={true}>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body> <Image src={props.src} fluid/> </Modal.Body>
         <Modal.Footer>
